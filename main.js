@@ -55,16 +55,6 @@ function consulta(){
 }
 
 
-/* function calculardiasDiscount() {
-    let timeStart = new Date(checkIN.valueOf);
-    let timeEnd =new Date(checkIN.valueOf);
-    let actualDate = new Date();
-    if (timeEnd > timeStart)
-    {
-        let diff = timeEnd.getTime() - timeStart.getTime();
-        document.getElementById("daysDiscount").value = Math.round(diff / (1000 * 60 * 60 * 24));
-
-  */
 // OPCION 1)) EL USUARIO REGISTRA SU RESERVA Y SE LE ASIGNA DEPARTAMENTO SEGUN CANTIDAD DE PERSONAS
 function reservaOpciones () {
     let nombre = prompt (` Bienvenido a nuestro sistema de reserva : Ingrese su nombre? `);
